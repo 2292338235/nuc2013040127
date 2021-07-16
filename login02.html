@@ -1,0 +1,109 @@
+ <!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>教务系统登录</title>
+		<style>
+			 body{
+				background-color: #1E9FFF;
+			}
+			#logindiv{
+				background-color:white;
+				width: 550px;
+				height:530px;
+				margin: 0 auto ;
+				color: #1E9FFF;
+				margin-top: 100px;
+				text-align: center;
+				 padding-top:20px;			
+			}
+			#unname{
+				width: 450px;
+			    height: 30px;
+			    border-radius: 5px;
+			    border:1px solid lightgray;
+			    margin-left: -28px;
+			    background-color: transparent;
+			    padding-left: 28px;
+			}
+			#upsw{
+				width: 450px;
+			    height: 30px;
+			    border-radius: 5px;
+			    border:1px solid lightgray;
+			    margin-left: -28px;
+			    background-color: transparent;
+			    padding-left: 28px;
+			    margin-top:11px;
+			}
+			#loginbtn{
+				width:456px;
+				height:35px;
+				margin-top:11px;
+				background-color: #1E9FFF;
+				 border-radius: 5px;
+				 border:1px solid  #1E9FFF ;
+				 color:white;
+				 margin-bottom: 30px;
+				}
+			 
+				
+			#mm3{
+					 color:slategray;
+					  font-size: 5px;
+			   }
+			#mm1{
+					  color: black;
+					  font-size: 10px;
+					  }
+			#mm2{
+					  color: black;
+					  font-size: 10px;
+					  }
+		</style>
+	</head>
+	<body>
+		<div id="logindiv">
+			<img src="../js/img/nuc.png"  width="350" height="100" >
+			<h1>中北大学学生管理系统</h1>
+			<img src="../js/img/user.png">
+			<input placeholder="用户名" type="text" id="unname" name="username">
+			<br>
+			<img src="../js/img/password.png">
+			<input type="password" id="upsw" name="userpsw"> 
+			<br> 
+			<button id="loginbtn">登录</button>
+		    <br>
+		    <div>
+		    	<span id="mm3">
+		    		————————第三方软件登录————————
+		    	</span>
+		    </div>
+		    <span >
+		    	<a href="https://graph.qq.com/oauth2.0/show?which=Login&display=pc&response_type=code&redirect_uri=http%3A%2F%2Fspcdp.cdposs.qq.com%2Fauth%2Fcallback&client_id=101477813&state=http%3A%2F%2Fspcdp.cdposs.qq.com%2F">
+		    		<img src="../js/img/qq.png"/>
+		    	</a>
+		    </span>
+		    <span>
+		    	<a href="https://wx2.qq.com/">
+		    	<img src="../js/img/weixin.png" />
+		    	</a>
+		    </span>
+		    <span>
+		    	<a href=" https://weibo.com/#_loginLayer_1626344775003">
+		    	<img src="../js/img/weibo.png" />
+		    	</a>
+		    </span>
+		     <div id="bottomdiv">
+		     	 <span id="mm1">
+		     	 	开发者：北国 20130401XX 中北大学软件学院
+		     	 </span>
+		     	 <br />
+		     	 <span id="mm2">
+		     	 	技术支持：中北大学软件学院
+		     	 </span>
+		     </div>
+		      
+		</div>
+	</body>
+</html>
